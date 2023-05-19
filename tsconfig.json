@@ -1,0 +1,57 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowJs": false,
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "jsx": "react-jsx",
+    "target": "es5",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "paths": {
+      "@editor": [
+        "src/containers/editor/index"
+      ],
+      "@editor/*": [
+        "src/containers/editor/*"
+      ],
+      "@test": [
+        "src/containers/test/index"
+      ],
+      "@test/*": [
+        "src/containers/test/*"
+      ],
+      "@hook": [
+        "src/hook/index"
+      ],
+      "@hook/*": [
+        "src/hook/*"
+      ],
+      "@store": [
+        "src/store/index"
+      ],
+      "@store/*": [
+        "src/store/*"
+      ],
+      "@util": [
+        "src/util/index"
+      ],
+      "@util/*": [
+        "src/util/*"
+      ]
+    }
+  }
+}
